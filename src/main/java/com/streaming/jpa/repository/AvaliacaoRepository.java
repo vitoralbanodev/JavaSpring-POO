@@ -1,7 +1,8 @@
-package com.leanderson.jpa.repository;
+package com.streaming.jpa.repository;
 
-import com.leanderson.jpa.Avaliacao;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.streaming.jpa.entity.Avaliacao;
 
 public interface AvaliacaoRepository extends JpaRepository<Avaliacao, Long> {
 }

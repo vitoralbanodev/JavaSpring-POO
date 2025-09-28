@@ -1,4 +1,4 @@
-package com.leanderson.jpa;
+package com.streaming.jpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

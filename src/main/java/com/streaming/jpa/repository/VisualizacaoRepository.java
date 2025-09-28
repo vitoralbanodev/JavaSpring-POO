@@ -1,9 +1,11 @@
-package com.leanderson.jpa.repository;
+package com.streaming.jpa.repository;
 
-import com.leanderson.jpa.Visualizacao;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import java.util.List;
+
+import com.streaming.jpa.entity.Visualizacao;
 
 public interface VisualizacaoRepository extends JpaRepository<Visualizacao, Long> {
 
